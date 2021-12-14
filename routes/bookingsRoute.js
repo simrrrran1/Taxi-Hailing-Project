@@ -14,6 +14,8 @@ router.post("/bookcar", async (req, res) => {
       source: token.id,
     });
 
+    
+
     const payment = await stripe.charges.create(
       {
         amount: req.body.totalAmount * 100,

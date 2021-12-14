@@ -20,3 +20,4 @@ function connectDB(){
 connectDB()
 
 module.exports = mongoose
+
